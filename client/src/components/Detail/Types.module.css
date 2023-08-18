@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+h1 {
+  font-size: 2.5rem; /* Tamaño de fuente grande */
+  color: #333; /* Color del texto */
+  margin-bottom: 20px; /* Espacio inferior para separación */
+  text-align: center; /* Centrar el texto horizontalmente */
+  text-transform: uppercase;
+}
+
+.select {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.select:hover {
+  border-color: #555;
+}
+
+.cardcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
